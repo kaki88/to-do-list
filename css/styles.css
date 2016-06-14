@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.right {
+    float: left;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 1vw;
+    width: 18vw;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 18vw;
+}
+
+.center {
+    float: left;
+    background-color: #D6D6D6;
+    margin-left: 1vw;
+    width: 60vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.titre {
+    background-color: #4F515E;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Passion One', cursive;
+}
+
+.valider{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+span {
+    background-color: white;
+    padding: 4px 8px 4px 8px;
+    margin: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+
+}
+.dossier {
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 13px;
+}
+.count {
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-color:black;
+    background-color:black;
+    color:white;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.compteur {
+    text-align: center;
+}
+
+.cacher {
+    display: none;
+}
+
+.leftcat {
+    float: left;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 18vw;
+    position: absolute;
+    margin-left: 18vw;
+}
+
+
+.desctable{
+    background-color: #59B5AD;
+    font-family: 'Roboto', sans-serif;
+}
+
+.red {
+    color: red;
+    margin-left: 10px;
+}
+
+.plusss {
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
+
+.textbox {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    outline:0;
+    height:25px;
+    width: 85%;
+}
+
+.textboxx {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    outline:0;
+    height:75px;
+    width: 88%;
+}
+
+.trash-img{
+    width: 40%;
+}
+
+.trash{
+    position: absolute;
+    bottom: 2vw;
+    right: 5vw;
+}
+
+.trash:hover{
+    cursor: pointer;
+}
+
+.counttrash{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Passion One', cursive;
+
+}
